@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+body{
+  padding: 0;
+  margin: 0;
+  background-color:#2a2929;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.person__form, .person__list-block {
+  margin-top: 40px;
+  padding: 30px;
+  width: 500px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.person__input-block{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: right;
+  width: 100%;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.person__title{
+  font-weight: bold;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.person__input{
+  font-size: 22px;
+  border-radius:5px;
+  margin-top: 10px;
+  padding:5px;
 }
+
+.btn{
+  margin-top: 20px;
+  color:white;
+  font-size: 18px;
+  padding: 3px 20px;
+}
+
+.btn-violet{
+  background: rgba(44, 1, 30, 0.918);
+}
+
+.person__list-block{
+  list-style: none;
+  font-weight: bold;
+}
+
+.person__list-item{
+  border:1px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.no-message{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
